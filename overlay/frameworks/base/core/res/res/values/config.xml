@@ -82,6 +82,8 @@
          that can be set by the user. -->
     <integer name="config_screenBrightnessDim">2</integer>
 
+    <integer name="config_buttonBrightnessSettingDefault">0</integer>
+
     <!-- This string array should be overridden by the device to present a list of network
          attributes.  This is used by the connectivity manager to decide which networks can coexist
          based on the hardware -->
