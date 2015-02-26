@@ -411,6 +411,17 @@ on property:init.svc.surfaceflinger=stopped
 service charger /sbin/chargeonlymode
     class charger
 
+service hvdcp /system/bin/hvdcp
+    class core
+    user root
+    disabled
+
+on property:persist.usb.hvdcp.detect=true
+    start hvdcp
+
+on property:persist.usb.hvdcp.detect=false
+    stop hvdcp
+
 on property:sys.boot_completed=1
     # Enable Power modes
     write /sys/block/mmcblk0/queue/scheduler row
