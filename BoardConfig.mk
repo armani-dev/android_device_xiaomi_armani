@@ -80,6 +80,9 @@ BOARD_FLASH_BLOCK_SIZE             := 131072
 # FM
 BOARD_HAVE_QCOM_FM := true
 
+# GPS
+TARGET_PROVIDES_GPS_LOC_API := true
+
 # Graphics
 BOARD_EGL_CFG := device/xiaomi/armani/configs/egl.cfg
 TARGET_QCOM_DISPLAY_VARIANT := caf-new
