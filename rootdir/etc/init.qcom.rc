@@ -319,13 +319,6 @@ service dhcpcd_bnep4 /system/bin/dhcpcd -BKLG
     disabled
     oneshot
 
-service fm_dl /system/bin/sh /system/etc/init.qcom.fm.sh
-    class late_start
-    user root
-    group system fm_radio
-    disabled
-    oneshot
-
 service hostapd /system/bin/hostapd -dd /data/hostapd/hostapd.conf
     class late_start
     user root
