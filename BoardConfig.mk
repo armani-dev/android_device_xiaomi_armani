@@ -81,6 +81,7 @@ BOARD_FLASH_BLOCK_SIZE             := 131072
 BOARD_HAVE_QCOM_FM := true
 
 # GPS
+TARGET_GPS_HAL_PATH := device/xiaomi/armani/gps
 TARGET_PROVIDES_GPS_LOC_API := true
 
 # Graphics
