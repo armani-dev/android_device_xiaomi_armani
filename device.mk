@@ -192,10 +192,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     chargeonlymode \
-    fstab.qcom \
-    init.qcom.rc \
-    init.qcom.usb.rc \
-    ueventd.qcom.rc
+    fstab.armani \
+    init.armani.rc \
+    init.armani.usb.rc \
+    ueventd.armani.rc
 
 # Recovery
 PRODUCT_PROPERTY_OVERRIDES += \
