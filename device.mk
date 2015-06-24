@@ -79,6 +79,10 @@ PRODUCT_PACKAGES += \
     memtrack.msm8226 \
     liboverlay
 
+# DRM
+PRODUCT_PROPERTY_OVERRIDES += \
+    drm.service.enabled=true
+
 # Ebtables
 PRODUCT_PACKAGES += \
     ebtables \
